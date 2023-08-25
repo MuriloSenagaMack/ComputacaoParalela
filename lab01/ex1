@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int tamanho = 3;
+	int tamanho = 3;
     
     int matriz[3][3] = {
         {5, 12, 8},
