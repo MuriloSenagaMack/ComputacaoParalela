@@ -1,4 +1,4 @@
-# include <stdio.h>
+ include <stdio.h>
 
 int main()
 {
@@ -13,3 +13,4 @@ int main()
 
    printf("The factorial of %d is %d\n",num,i);
 }
+
