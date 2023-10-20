@@ -4,7 +4,6 @@
 
 void Hello(void);  /* Thread function */
 
-/*--------------------------------------------------------------------*/
 int main(int argc, char* argv[]) {
    int thread_count = strtol(argv[1], NULL, 10); 
 
@@ -12,12 +11,8 @@ int main(int argc, char* argv[]) {
    Hello();
 
    return 0; 
-}  /* main */
+} 
 
-/*-------------------------------------------------------------------
- * Function:    Hello
- * Purpose:     Thread function that prints message
- */
 void Hello(void) {
    int my_rank = omp_get_thread_num();
    int thread_count = omp_get_num_threads();
