@@ -1,4 +1,4 @@
-##Pthreads parte 1  
+## Pthreads parte 1  
 Considere o trecho de código em anexo para resolver o problema da multiplicação matriz-vetor utilizando pthreads Construa a versão serial e paralela e registre os tempos de execução e speedup no repositório do projeto.
 
 Time codigo serial:  
